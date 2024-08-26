@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="assets/Logo.png" alt="logo alura">
+    </header>
+    <main class="presentacion">
+        <section>
+            <textarea class="text__area" cols="30" rows="10" placeholder="lngrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion"><img src="assets/Vector.png" alt="Vector de atención">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button onclick="botonEncriptar();" class="boton__encriptar">Encriptar</button>
+                <button onclick="botonDesencriptar();" class="boton__desencriptar" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="text__area__mensaje" cols="20" rows="10"></textarea>
+            <button onclick="botonCopiar();" class="boton__copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <h2 class="Desarrollador__fecha">Desarrollado por Marcelo Cruz
+            <br>agosto 2024
+        </h2>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>

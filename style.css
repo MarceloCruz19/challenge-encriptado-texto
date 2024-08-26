@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F3f5fc;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text__area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase; /*Todo el texto en minusculas*/
+}
+
+.text__area::placeholder {
+    color: #0a3871;
+}
+
+.text__area:focus {
+    outline: none; /*Ocultar linea de texto*/
+}
+
+.informacion {
+    display: flex;
+    color: #495057;
+    font-size: 18px;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton__encriptar {
+    background: #0a3871;
+    border: 1px solid #0a3871; 
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.boton__desencriptar {
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+
+.text__area__mensaje {
+    background: #ffffff;
+    background-image: url("assets/Muñeco1.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.text__area__mensaje:focus {
+    outline: none;
+}
+
+.boton__copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    cursor: pointer;
+    color: #0a3871;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    display: none;
+}
+
+.Desarrollador__fecha {
+    background-color: #0a3871;
+    padding: 0.25rem;
+    color: aquamarine;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5rem;
+    font-weight: 400;
+}
